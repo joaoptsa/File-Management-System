@@ -1,7 +1,7 @@
 <h1>Java Spring project with MySQL: File Management System</h1>
 
 <br>
-This project is a Java Spring application that uses a MySQL database to create a simple file management system. The system is designed to have two types of users: an administrator with full permissions (upload, download and delete files) and a user with limited permissions (download files only).
+This project is a Java Spring application that uses a MySQL database to create a simple file management system. The system is designed to have two types of users: an administrator with full permissions (upload, download and delete files) and a user with limited permissions (download files only).<br>
 
 <h3>Technologies used</h3>
 
