@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+        .container {
+            border: 10px solid #333;
+            padding: 20px;
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            background-color: white;
+        }
+       
+    </style>
+</head>
+
+<body>
+   <h1>404 Not Found</h1>
+   <br><br>
+   <div class="container">
+   <p1>This page not found,but you can stay and have a drink</p1>
+   <p th:text="${errorMessage}"></p>
+</body>
+</html>

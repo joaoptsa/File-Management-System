@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Access Denied</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      border: 2px solid #333;
+      padding: 20px;
+      text-align: center;
+      margin: auto;
+      width: 50%;
+      background-color: white;
+    }
+  </style>
+
+  <script>
+    setTimeout(function () {
+      window.location.href = "/login";
+    }, 60000); 
+  </script>
+
+</head>
+
+<body>
+  <br>
+  <br>
+  <h2>Blocked</h2>
+  <br><br>
+  <div class="container">
+    <p1>You are blocked . Wait a few minutes for it to unlock.</p1>
+  </div>
+
+</body>
+
+</html>
