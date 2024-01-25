@@ -1,0 +1,47 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Spring Boot
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+
+# Maven
+target/
+.mvn/
+mvnw
+mvnw.cmd
+
+# Help file
+HELP.md
