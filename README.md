@@ -16,7 +16,7 @@ This project is a Java Spring application that uses a MySQL database to create a
 
 <h4>Admin</h4>
 
-<p>File Upload: The administrator can upload files to the system.</p>
+<p>File Upload: The administrator can upload files to the system.(upload .zip files only)</p>
 <p>File Download: Can download any file available in the system.</p>
 <p></p>Delete Files: Has the ability to delete existing files.</p>
 
